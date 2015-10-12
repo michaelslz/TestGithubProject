@@ -13,5 +13,15 @@ namespace ConsoleApplication1
 
             Console.WriteLine("Hello Github!");
         }
+
+        public int add(int a, int b = 1)
+        {
+            return a + b;
+        }
+
+        public int add(int a)
+        {
+            return a;
+        }
     }
 }
