@@ -28,5 +28,10 @@ namespace ConsoleApplication1
         {
             return a - b;
         }
+
+        public static int minus(int a)
+        {
+            return -a;
+        }
     }
 }
